@@ -36,7 +36,7 @@ docker run -d \
   docker run -d \
   --restart=unless-stopped \
   --network host \
-  -e HA_URL=http://192.168.1.100:8123 \
+  -e HA_URL=http://gemfoto.synology.me:8123 \
   -e SUPERVISOR_TOKEN=eyJ~iJ9.eyJ~jF9.CkQ~Lho \
   -v ./volume:/data \
   --name ewelink_smart_home \
